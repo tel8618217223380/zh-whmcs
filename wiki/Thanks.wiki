@@ -1,0 +1,16 @@
+#labels Featured
+#感谢人员名单
+
+= 感谢 =
+
+以下为为本项目提出过建议、支持等的名单
+
+= Details =
+
+小牧：后台原版汉化提供者
+
+古风飘雨(主机迷站长)：参考了他的原版汉化
+
+walkman660(来自hostloc)，提交Bug与建议
+
+jashbbq123(jashbbq123@gmail.com)，提交[http://code.google.com/p/zh-whmcs/issues/detail?id=3 补丁]
