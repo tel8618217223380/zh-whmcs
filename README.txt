@@ -7,6 +7,7 @@
 翻译、校对人员：
 lsylsy2(lsylsy2@gmail.com)：项目主要维护者
 小牧(http://t.qq.com/greejd)：后台原版汉化提供者
+主机迷(http://www.zhujimi.com)，提供一个版本的前台汉化，参考很多
 
 感谢：
-walkman660（来自hostloc），指出错误与提出措辞建议
+walkman660(来自hostloc)，指出错误与提出措辞建议
