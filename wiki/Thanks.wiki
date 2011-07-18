@@ -18,3 +18,7 @@ jashbbq123(jashbbq123@gmail.com)，提交[http://code.google.com/p/zh-whmcs/issu
 master@chinac.net，提交[http://code.google.com/p/zh-whmcs/issues/detail?id=4 补丁]
 
 colorsyuan(colorsyuan@gmail.com)，提交[http://code.google.com/p/zh-whmcs/issues/detail?id=5 补丁]
+
+service%usassh.com@gtempaccount.com，在[http://code.google.com/p/zh-whmcs/issues/detail?id=3 这里]提交另一个补丁
+
+nworou(nworou@gmail.com)，提交[http://code.google.com/p/zh-whmcs/issues/detail?id=5 补丁]
