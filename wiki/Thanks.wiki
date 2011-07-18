@@ -14,3 +14,7 @@
 walkman660(来自hostloc)，提交Bug与建议
 
 jashbbq123(jashbbq123@gmail.com)，提交[http://code.google.com/p/zh-whmcs/issues/detail?id=3 补丁]
+
+master@chinac.net，提交[http://code.google.com/p/zh-whmcs/issues/detail?id=4 补丁]
+
+colorsyuan(colorsyuan@gmail.com)，提交[http://code.google.com/p/zh-whmcs/issues/detail?id=5 补丁]
