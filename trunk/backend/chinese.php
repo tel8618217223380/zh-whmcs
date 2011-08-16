@@ -285,6 +285,7 @@ $_ADMINLANG['services']['unsuspendsure'] = "确定执行解除暂停操作吗？
 $_ADMINLANG['services']['terminatesure'] = "确定执行终止操作吗？";
 $_ADMINLANG['services']['chgpacksure'] = "确定执行变更套餐操作吗？";
 $_ADMINLANG['services']['proddeletesure'] = "确定删除这个产品/服务吗? 相应的附加产品也会被移除，但不会执行终止操作。";
+
 $_ADMINLANG['services']['moveservice'] = "转移这个产品/服务给其他用户";
 $_ADMINLANG['services']['cancrequest'] = "取消申请提醒";
 $_ADMINLANG['services']['cancrequestinfo'] = "用户申请了取消该服务，所以到期后不会再产生续费账单。";
@@ -1188,7 +1189,7 @@ $_ADMINLANG['permissions']['32'] = "支付接口日志";
 $_ADMINLANG['permissions']['85'] = "管理行情";
 $_ADMINLANG['permissions']['38'] = "客服中心概览";
 $_ADMINLANG['permissions']['39'] = "管理公告";
-$_ADMINLANG['permissions']['40'] = "管理常见问题";
+$_ADMINLANG['permissions']['40'] = "管理知识库";
 $_ADMINLANG['permissions']['41'] = "管理下载中心";
 $_ADMINLANG['permissions']['84'] = "管理网络问题";
 $_ADMINLANG['permissions']['42'] = "列出支持单";
@@ -1393,6 +1394,7 @@ $_ADMINLANG['products']['deletecustomfieldconfirm'] = "你确定要删除该栏�
 $_ADMINLANG['products']['deleteproductconfigconfirm'] = "你确定要删除该产品的配置信息吗？";
 $_ADMINLANG['products']['deletegrouperror'] = "你不能删除包含有产品的组。";
 $_ADMINLANG['products']['deleteproducterror'] = "你不能删除一个正在使用的产品。要删除该产品, 你需要重新指派或移除当前使用者";
+
 $_ADMINLANG['products']['productname'] = "产品名称";
 $_ADMINLANG['products']['productgroup'] = "产品组";
 $_ADMINLANG['products']['productgroupname'] = "产品组名称";
@@ -1441,6 +1443,7 @@ $_ADMINLANG['products']['paymenttype'] = "付款类型";
 $_ADMINLANG['products']['disablepaymenttermdesc'] = "Set to -1.00 to disable any of the payment term options";
 $_ADMINLANG['products']['autoterminatefixedterm'] = "Auto Terminate/Fixed Term";
 $_ADMINLANG['products']['autoterminatefixedtermdesc'] = "在此输入天数以在产品开通该天数后自动终止并删除产品（例如，可以用来提供免费试用、限时产品，等等……）";
+
 $_ADMINLANG['products']['terminationemail'] = "产品终止通知邮件";
 $_ADMINLANG['products']['chooseemailtplfixedtermend'] = "Choose the email template to send when the fixed term comes to an end";
 $_ADMINLANG['products']['tickboxtoenable'] = "勾选以启用";
@@ -1448,6 +1451,7 @@ $_ADMINLANG['products']['proratadate'] = "Prorata Date";
 $_ADMINLANG['products']['proratadatedesc'] = "Enter the day of the month you want to charge on";
 $_ADMINLANG['products']['chargenextmonth'] = "下个月开始收费";
 $_ADMINLANG['products']['chargenextmonthdesc'] = "输入日期，在每月该日期后订购的产品将要求一同支付下个月的费用";
+
 $_ADMINLANG['products']['modulename'] = "模块";
 $_ADMINLANG['products']['servergroup'] = "S服务器组";
 $_ADMINLANG['products']['assignedoptiongroups'] = "Assigned Option Groups";
