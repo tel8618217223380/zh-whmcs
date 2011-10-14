@@ -1477,7 +1477,7 @@ $_ADMINLANG['products']['softdisklimit'] = "软性硬盘限制";
 $_ADMINLANG['products']['softbwlimit'] = "软性流量限制";
 $_ADMINLANG['products']['diskoveragescost'] = "硬盘超限费用";
 $_ADMINLANG['products']['bwoveragescost'] = "流量超限费用";
-$_ADMINLANG['products']['directcartlink'] = "直接订购连结";
+$_ADMINLANG['products']['directcartlink'] = "直接订购链接";
 $_ADMINLANG['products']['directscartlink'] = "直接购物车链接";
 $_ADMINLANG['products']['directscarttpllink'] = "指定模板的直接购物车链接";
 $_ADMINLANG['products']['directscartdomlink'] = "包含域名的直接购物车链接";
@@ -1815,7 +1815,7 @@ $_ADMINLANG['customfields']['fieldname'] = "区域名称";
 $_ADMINLANG['customfields']['order'] = "显示顺序";
 $_ADMINLANG['customfields']['fieldtype'] = "区域类型";
 $_ADMINLANG['customfields']['typetextbox'] = "文本框";
-$_ADMINLANG['customfields']['typepassword'] = "Password";
+$_ADMINLANG['customfields']['typepassword'] = "密码";
 $_ADMINLANG['customfields']['typedropdown'] = "下拉式";
 $_ADMINLANG['customfields']['typetickbox'] = "勾选项";
 $_ADMINLANG['customfields']['typetextarea'] = "文字区";
@@ -1829,7 +1829,7 @@ $_ADMINLANG['customfields']['requiredfield'] = "必填";
 $_ADMINLANG['customfields']['deletefield'] = "删除自定义区域";
 $_ADMINLANG['customfields']['addfield'] = "添加自定义区域";
 $_ADMINLANG['customfields']['orderform'] = "在订购产品时显示";
-$_ADMINLANG['customfields']['showinvoice'] = "Show on Invoice";
+$_ADMINLANG['customfields']['showinvoice'] = "在账单上显示";
 
 # Email Templates
 $_ADMINLANG['emailtpls']['title'] = "电子邮件模板";
@@ -2414,5 +2414,13 @@ $_ADMINLANG['promos']['upgradetype'] = "Upgrade Type";
 $_ADMINLANG['promos']['upgradediscount'] = "Upgrade Discount";
 $_ADMINLANG['promos']['configoptionsupgrades'] = "Config Options Upgrades";
 $_ADMINLANG['promos']['configoptionsupgradesdesc'] = "The options selected above are the ones the discount is applied to when Upgrade Type is set to Configurable Options";
+
+/*
+制作：zh-whmcs project
+地址：http://code.google.com/p/zh-whmcs/
+主要维护者：lsylsy2
+E-mail:lsylsy2@gmail.com
+发现Bug欢迎上报
+*/
 
 ?>
