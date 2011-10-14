@@ -1059,5 +1059,9 @@ $_LANG['recurringpromodesc'] = "此优惠码还包含了循环折扣<br />（这
 $_LANG['ajaxcartcheckout'] = "直接跳转至结账&raquo;";
 $_LANG['ordersummarybegin'] = "购物车是空的<br/>请选择产品开始订购……";
 $_LANG['ajaxcartconfigreqnotice'] = "您即将在这里注册，但在能够将你选择的产品加入购物车之前，您必须选择一个域名。";
-#由lebcn.com整理校对
-#最新版本请访问http://www.lebcn.com/460.html
+
+#制作：zh-whmcs project
+#地址：http://code.google.com/p/zh-whmcs/
+#主要维护者：lsylsy2
+#E-mail:lsylsy2@gmail.com
+#发现Bug欢迎上报
