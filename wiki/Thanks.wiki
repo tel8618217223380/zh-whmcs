@@ -19,6 +19,6 @@ master@chinac.net，提交[http://code.google.com/p/zh-whmcs/issues/detail?id=4 
 
 colorsyuan(colorsyuan@gmail.com)，提交[http://code.google.com/p/zh-whmcs/issues/detail?id=5 补丁]
 
-service%usassh.com@gtempaccount.com，在[http://code.google.com/p/zh-whmcs/issues/detail?id=3 这里]提交另一个补丁
+service%usassh.com@gtempaccount.com，补充[http://code.google.com/p/zh-whmcs/issues/detail?id=3 另一个补丁]
 
-nworou(nworou@gmail.com)，提交[http://code.google.com/p/zh-whmcs/issues/detail?id=5 补丁]
+nworou(nworou@gmail.com)，提交[http://code.google.com/p/zh-whmcs/issues/detail?id=5 补丁]和[http://code.google.com/p/zh-whmcs/issues/detail?id=6 补丁]
