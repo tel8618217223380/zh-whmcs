@@ -11,3 +11,5 @@ lsylsy2(lsylsy2@gmail.com)：项目主要维护者
 
 感谢：
 walkman660(来自hostloc)，指出错误与提出措辞建议
+更多请查看
+http://code.google.com/p/zh-whmcs/wiki/Thanks
