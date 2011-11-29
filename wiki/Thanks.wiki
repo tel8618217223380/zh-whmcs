@@ -22,3 +22,5 @@ colorsyuan(colorsyuan at gmail.com)，提交[http://code.google.com/p/zh-whmcs/i
 service%usassh.com at gtempaccount.com，补充[http://code.google.com/p/zh-whmcs/issues/detail?id=3 另一个补丁]
 
 nworou(nworou at gmail.com)，提交[http://code.google.com/p/zh-whmcs/issues/detail?id=5 补丁]和[http://code.google.com/p/zh-whmcs/issues/detail?id=6 补丁]
+
+yupeng1990（yupeng1990 at gmail.com），提交最新版5.0.2汉化，多谢！
