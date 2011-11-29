@@ -1044,7 +1044,7 @@ $_LANG['cartchooseanotherproduct'] = "选择其他产品";
 $_LANG['cartaddandcheckout'] = "添加到购物车 & 结帐";
 $_LANG['cartchooseanothercategory'] = "选择其他分类";
 $_LANG['carttryanotherdomain'] = "尝试其他域名";
-$_LANG['cartmakedomainselection'] = "请像我们提供您希望使用的域名。";
+$_LANG['cartmakedomainselection'] = "请向我们提供您希望使用的域名。";
 $_LANG['cartfraudcheck'] = "欺诈检查";
 
 $_LANG['newcustomer'] = "新客户";
