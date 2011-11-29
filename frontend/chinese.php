@@ -1,5 +1,7 @@
 <?php
 
+$_LANG['isocode'] = 'zh';
+
 $_LANG["accountinfo"] = "账户信息";
 $_LANG["accountstats"] = "账户统计";
 $_LANG["addfunds"] = "充值";
