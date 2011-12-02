@@ -1565,7 +1565,7 @@ $_ADMINLANG['products']['softdisklimit'] = "软性硬盘限制";
 $_ADMINLANG['products']['softbwlimit'] = "软性流量限制";
 $_ADMINLANG['products']['diskoveragescost'] = "硬盘超限费用";
 $_ADMINLANG['products']['bwoveragescost'] = "流量超限费用";
-$_ADMINLANG['products']['directcartlink'] = "直接订购链接";
+$_ADMINLANG['products']['directcartlink'] = "产品链接";
 $_ADMINLANG['products']['directscartlink'] = "直接购物车链接";
 $_ADMINLANG['products']['directscarttpllink'] = "指定模板的直接购物车链接";
 $_ADMINLANG['products']['directscartdomlink'] = "包含域名的直接购物车链接";
@@ -1583,7 +1583,7 @@ $_ADMINLANG['products']['editgroup'] = "编辑分组";
 $_ADMINLANG['products']['pricepermb'] = "每MB价格";
 $_ADMINLANG['products']['addcategory'] = "添加分类";
 $_ADMINLANG['products']['quickupload'] = "快速上传";
-$_ADMINLANG['products']['updatesort'] = "Update Sorting";
+$_ADMINLANG['products']['updatesort'] = "更新排序";
 
 # Downloads
 $_ADMINLANG['downloads']['ctrlmultiple'] = "按住 Ctrl+Click 选择多个下载文件";
