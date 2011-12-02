@@ -2247,7 +2247,7 @@ $_ADMINLANG['general']['afflinks'] = "Affiliate Links";
 $_ADMINLANG['general']['afflinksinfo'] = "Enter [AffiliateLinkCode] where the affiliate's customised link code should be inserted"; #[AffiliateLinkCode] cannot be translated
 $_ADMINLANG['general']['afflinksinfo2'] = "Use <b><(</b> for open brackets and <b>)></b> for close brackets in HTML or else the HTML will be executed on the page";
 $_ADMINLANG['general']['captcha'] = "Captcha Form Protection";
-$_ADMINLANG['general']['captchaalwayson'] = "Always On (5 digit verification code shown to ensure human submission)";
+$_ADMINLANG['general']['captchaalwayson'] = "Always On (code shown to ensure human submission)";
 $_ADMINLANG['general']['captchaoffloggedin'] = "Off when logged in";
 $_ADMINLANG['general']['captchaoff'] = "Always Off";
 $_ADMINLANG['general']['captchatype'] = "Captcha Type";
@@ -2366,7 +2366,7 @@ $_ADMINLANG['supportticketdepts']['ticketsclientareaonlydesc'] = "Require all ti
 $_ADMINLANG['supportticketdepts']['noautoresponder'] = "No Autoresponder";
 $_ADMINLANG['supportticketdepts']['noautoresponderdesc'] = "Do not send the autoresponder message for new tickets";
 $_ADMINLANG['supportticketdepts']['hiddendesc'] = "Hide from clients";
-$_ADMINLANG['supportticketdepts']['pop3importconfigtitle'] = "POP3 Importing Configuration</b> (Only required if using POP3 Import method)";
+$_ADMINLANG['supportticketdepts']['pop3importconfigtitle'] = "POP3 Importing Configuration";
 $_ADMINLANG['supportticketdepts']['pop3importconfigdesc'] = "(Only required if using POP3 Import method)";
 
 # Support Ticket Escalations
