@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 $_LANG['isocode'] = 'zh';
 
@@ -221,7 +221,7 @@ $_LANG['clientareaviewdetails'] = "查看详情";
 $_LANG['clientareawebmaillink'] = "登录到 Webmail";
 $_LANG['clientareawhmlink'] = "登录到 WHM";
 $_LANG['clientlogin'] = "客户登陆";
-$_LANG['clientregisterheadertext'] = "请填写下列内容以注册一个新账户，标注*号的是必填项。";
+$_LANG['clientregisterheadertext'] = "请填写下列内容以注册一个新账户";
 $_LANG['clientregistertitle'] = "注册";
 $_LANG['clientregisterverify'] = "验证注册";
 $_LANG['clientregisterverifydescription'] = "请将您所看到的图片中的验证码输入到文字框中，这是为了防止自动注册。";
@@ -364,7 +364,7 @@ $_LANG['downloadsdescription'] = "查看下载目录";
 $_LANG['downloadsfiles'] = "文件";
 $_LANG['downloadsfilesize'] = "文件大小";
 $_LANG['downloadsintrotext'] = "下载库中包含很多您在建站过程中可能用到的说明、演示、程序、视频等其他文件。";
-$_LANG['downloadspopular'] = "Most Popular Downloads";
+$_LANG['downloadspopular'] = "最受欢迎资源下载";
 $_LANG['downloadsnone'] = "没有任何下载";
 $_LANG['downloadstitle'] = "资源下载";
 $_LANG['email'] = "Email";
@@ -1061,35 +1061,35 @@ $_LANG['ajaxcartconfigreqnotice'] = "您即将在这里注册，但在能够将�
 
 # Version 5.0.0
 
-$_LANG['cancelrequestdomain'] = "Cancel Domain Renewal?";
+$_LANG['cancelrequestdomain'] = "取消域名续费?";
 $_LANG['cancelrequestdomaindesc'] = "You also have an active domain registration for the domain associated with this product<br />This domain is due to renew on %s at a cost of %s for %s Year/s<br /><br />If you would like to cancel the domain as well, and let it expire at the end of the current registration, then simply tick the box below.";
-$_LANG['cancelrequestdomainconfirm'] = "I confirm I do not want to renew this domain again";
+$_LANG['cancelrequestdomainconfirm'] = "我确认该不再给该域名续费";
 
 $_LANG['startingfrom'] = "Starting from";
 
 $_LANG['orderpromopriceoverride'] = "Price Override";
-$_LANG['orderpromofreesetup'] = "Free Setup";
+$_LANG['orderpromofreesetup'] = "免配置费";
 
-$_LANG['thereisaproblem'] = "Oops, there's a problem...";
+$_LANG['thereisaproblem'] = "不好意思，发生了错误...";
 $_LANG['problemgoback'] = "Go back & try again";
 
-$_LANG['quantity'] = "Quantity";
-$_LANG['cartqtyenterquantity'] = "Want more than 1 of this item? Enter Quantity Here:";
+$_LANG['quantity'] = "数量";
+$_LANG['cartqtyenterquantity'] = "需要更多数量？请在这里输入需要的数量：";
 $_LANG['cartqtyupdate'] = "Update";
 $_LANG['invoiceqtyeach'] = "/each";
 
-$_LANG['nschoicedefault'] = "Use default nameservers";
-$_LANG['nschoicecustom'] = "Use custom nameservers (enter below)";
+$_LANG['nschoicedefault'] = "使用默认域名服务器";
+$_LANG['nschoicecustom'] = "使用自定义域名服务器 (请在下方输入)";
 
-$_LANG['jumpto'] = "Jump to";
-$_LANG['top'] = "Top";
+$_LANG['jumpto'] = "跳到";
+$_LANG['top'] = "回到顶部";
 
-$_LANG['domaincontactusexisting'] = "Use existing account contact";
+$_LANG['domaincontactusexisting'] = "使用已存在的联系人方式";
 $_LANG['domaincontactusecustom'] = "Specify custom information below";
 $_LANG['domaincontactchoose'] = "Choose Contact";
 $_LANG['domaincontactprimary'] = "Primary Profile Data";
 
-$_LANG['invoicepdfgenerated'] = "PDF Generated on";
+$_LANG['invoicepdfgenerated'] = "生成PDF";
 
 $_LANG['domainrenewalsbeforerenewlimit'] = "Minimum Advance Renewal is %s Days";
 
@@ -1172,20 +1172,20 @@ $_LANG['forgotpw'] = "Forgot Password?";
 $_LANG['editaccountdetails'] = "Edit Account Details";
 
 $_LANG['clientareanavccdetails'] = "Credit Card Details";
-$_LANG['clientareanavcontacts'] = "Contacts/Sub-Accounts";
+$_LANG['clientareanavcontacts'] = "联系人/子帐户";
 
-$_LANG['manageyouraccount'] = "Manage Your Account";
+$_LANG['manageyouraccount'] = "管理您的账号";
 $_LANG['accountoverview'] = "Account Overview";
-$_LANG['paymentmethod'] = "Payment Method";
-$_LANG['paymentmethoddefault'] = "Use Default (Set Per Order)";
+$_LANG['paymentmethod'] = "付款方式";
+$_LANG['paymentmethoddefault'] = "使用默认(自定义每一笔订单)";
 $_LANG['productmanagementactions'] = "Management Actions";
 $_LANG['clientareanoaddons'] = "此账号没有任何附加服务";
 $_LANG['downloadssearch'] = "Search Downloads";
-$_LANG['emailviewmessage'] = "View Message";
+$_LANG['emailviewmessage'] = "查看信息";
 $_LANG['resultsperpage'] = "Results Per Page";
-$_LANG['accessdenied'] = "Access Denied";
-$_LANG['search'] = "Search";
-$_LANG['cancel'] = "Cancel";
+$_LANG['accessdenied'] = "拒绝访问";
+$_LANG['search'] = "搜索";
+$_LANG['cancel'] = "取消";
 $_LANG['clientareabacklink'] = "&lt;&lt; 返回";
 
 $_LANG['clientareahomeorder'] = "Visit the Order Form to browse the Products & Services we offer. Existing customers can also purchase optional extras and addons here.";
