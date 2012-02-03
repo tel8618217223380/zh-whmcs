@@ -71,6 +71,7 @@ $_ADMINLANG['global']['hidden'] = "Hidden";
 $_ADMINLANG['global']['changesuccess'] = "Changes Saved Successfully!";
 $_ADMINLANG['global']['changesuccessdesc'] = "Your changes have been saved.";
 $_ADMINLANG['global']['clientsintellisearch'] = "Enter Name, Company or Email to Search";
+$_ADMINLANG['global']['ok'] = "OK";
 
 # Home
 $_ADMINLANG['home']['title'] = "Home";
@@ -2172,8 +2173,8 @@ $_ADMINLANG['general']['kbseourls'] = "KB SEO Friendly URLs";
 $_ADMINLANG['general']['kbseourlsinfo'] = "Tick to enable SEO friendly urls (Requires renaming the htaccess.txt file to .htaccess in the root directory)";
 $_ADMINLANG['general']['allowedattachments'] = "Allowed File Attachment Types";
 $_ADMINLANG['general']['allowedattachmentsinfo'] = "Seperate multiple extensions with a comma";
-$_ADMINLANG['general']['networklogin'] = "Network Issues Require Login";
-$_ADMINLANG['general']['networklogininfo'] = "Require login to view the network issues page";
+$_ADMINLANG['general']['networklogin'] = "Service Status Require Login";
+$_ADMINLANG['general']['networklogininfo'] = "Require a login to view the server status & network issues pages";
 $_ADMINLANG['general']['incproductdls'] = "Include Product Downloads";
 $_ADMINLANG['general']['incproductdlsinfo'] = "Tick to include Product Associated Downloads in the Downloads Directory";
 $_ADMINLANG['general']['continvgeneration'] = "Continuous Invoice Generation";
@@ -2446,6 +2447,7 @@ $_ADMINLANG['sendmessage']['massmailsetting2'] = "emails every";
 $_ADMINLANG['sendmessage']['massmailsetting3'] = "seconds until complete";
 $_ADMINLANG['sendmessage']['loadsavedmsg'] = "Load Saved Message";
 $_ADMINLANG['sendmessage']['choose'] = "Choose";
+$_ADMINLANG['sendmessage']['preview'] = "Message Preview";
 
 # Support Ticket Spam Control
 $_ADMINLANG['stspamcontrol']['stspamcontroltitle'] = "Support Ticket Spam Control";
