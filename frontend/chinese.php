@@ -123,7 +123,6 @@ $_LANG['clientareacontactsemailsinvoice'] = "账单Email - 发票及帐单提醒
 $_LANG['clientareacontactsemailsproduct'] = "产品Email - 订单明细，欢迎电子邮件等。";
 $_LANG['clientareacontactsemailssupport'] = "支持Email - 支持单通知";
 $_LANG['clientareacountry'] = "国家";
-$_LANG['clientareacpanellink'] = "登录到控制面板";
 $_LANG['clientareacurrentsecurityanswer'] = "请输入您目前的答案";
 $_LANG['clientareacurrentsecurityquestion'] = "请选择您目前的安全问题";
 $_LANG['clientareadeletecontact'] = "删除联系人";
@@ -220,8 +219,6 @@ $_LANG['clientareaupdateyourdetails'] = "更新您的详细情况";
 $_LANG['clientareaused'] = "已使用";
 $_LANG['clientareaviewaddons'] = "查看可用的附加服务";
 $_LANG['clientareaviewdetails'] = "查看详情";
-$_LANG['clientareawebmaillink'] = "登录到 Webmail";
-$_LANG['clientareawhmlink'] = "登录到 WHM";
 $_LANG['clientlogin'] = "客户登陆";
 $_LANG['clientregisterheadertext'] = "请填写下列内容以注册一个新账户。";
 $_LANG['clientregistertitle'] = "注册";
@@ -290,7 +287,7 @@ $_LANG['domainemailforwardingprefix'] = "前缀";
 $_LANG['domaineppcode'] = "EPP码";
 $_LANG['domaineppcodedesc'] = "这需要从目前的注册商授权";
 $_LANG['domaineppcoderequired'] = "您必须输入EPP码";
-$_LANG['domainerror'] = "您的请求中有一个错误:";
+$_LANG['domainerror'] = "在域名注册过程中遇到错误，请稍候重试。";
 $_LANG['domainerrornodomain'] = "请输入一个有效的域名";
 $_LANG['domainerrortoolong'] = "您输入的域名太长了，不能超过67个字符。";
 $_LANG['domaingeteppcode'] = "获取EPP码";
@@ -654,7 +651,8 @@ $_LANG['recordsfound'] = "记录";
 $_LANG['recurring'] = "续约";
 $_LANG['recurringamount'] = "续约价格";
 $_LANG['registerdomain'] = "注册域名";
-
+$_LANG['every'] = "每个";
+$_LANG['registerdomain'] = "注册域名";
 $_LANG['registerdomaindesc'] = "只需要在上面输入您想注册的域名来检查是否被注册";
 $_LANG['registerdomainname'] = "注册域名";
 $_LANG['relatedservice'] = "相关服务";
@@ -992,7 +990,11 @@ $_LANG['ticketmerge'] = "合并";
 
 $_LANG['quote'] = "报价";
 $_LANG['quotestitle'] = "我的报价单";
-$_LANG['quotedownload'] = "查看/下载";
+$_LANG['quoteview'] = "查看";
+$_LANG['quotedownload'] = "下载";
+$_LANG['quoteacceptbtn'] = "接受报价";
+$_LANG['quotedlpdfbtn'] = "下载 PDF";
+$_LANG['quotediscountheading'] = "折扣 (%)";
 $_LANG['noquotes'] = "目前您的账户没报价单。<br />需要请求报价，请提交支持单。";
 $_LANG['quotenumber'] = "报价单号码#";
 $_LANG['quotesubject'] = "报价主题";
@@ -1009,7 +1011,7 @@ $_LANG['quotestagedraft'] = "草稿";
 $_LANG['quotestagedelivered'] = "交付";
 $_LANG['quotestageonhold'] = "挂起";
 $_LANG['quotestageaccepted'] = "批准";
-$_LANG['quotestagelost'] = "丢失";
+$_LANG['quotestagelost'] = "过期";
 $_LANG['quotestagedead'] = "过期";
 $_LANG['quoteref'] = "重新请求 #";
 $_LANG['quotedeposit'] = "账户余额";
@@ -1219,7 +1221,7 @@ $_LANG['ccexpiringsoon'] = "信用卡即将过期";
 $_LANG['ccexpiringsoondesc'] = "您的信用卡即将过期，所以请确保尽快 %s更新%s。";
 $_LANG['availcreditbal'] = "可用余额";
 $_LANG['availcreditbaldesc'] = "您的余额为 %s ，这将自动用于支付您的新账单。";
-$_LANG['overdueinvoices'] = "过期帐单";
+$_LANG['youhaveoverdueinvoices'] = "您有 %s 个过期帐单";
 $_LANG['overdueinvoicesdesc'] = "为了避免服务中断，请及时支付未支付账单。 %s立刻支付 &raquo;%s";
 $_LANG['supportticketsnoneopen'] = "暂无开启服务单";
 $_LANG['invoicesnoneunpaid'] = "暂无未支付账单";
@@ -1293,6 +1295,75 @@ $_LANG['affiliatesignupinfo1'] = "我们会为您支付所有通过您的推荐�
 $_LANG['affiliatesignupinfo2'] = "我们会用cookies跟踪您推荐的用户，因此并不需要您推荐的用户马上下订单才能活得佣金。自初次访问后，cookies会保留90天。";
 $_LANG['affiliatesignupinfo3'] = "如果您需要了解更多，请联系我们。";
 
+# Version 5.1
+
+$_LANG['copyright'] = "版权";
+$_LANG['allrightsreserved'] = "版权所有";
+$_LANG['supportticketsclose'] = "关闭服务单";
+$_LANG['affiliatesinitialthen'] = "首先";
+$_LANG['invoicesoutstandingbalance'] = "未清余额";
+
+$_LANG['cpanellogin'] = "登录到 cPanel";
+$_LANG['cpanelwhmlogin'] = "登录到 WHM";
+$_LANG['cpanelwebmaillogin'] = "登录到 Webmail";
+$_LANG['plesklogin'] = "登录到 Plesk 控制面板";
+$_LANG['hemllogin'] = "登录到 Helm 控制面板";
+$_LANG['hypervmrestart'] = "重启 VPS 服务器";
+$_LANG['siteworxlogin'] = "登录到 SiteWorx 控制面板";
+$_LANG['nodeworxlogin'] = "登录到 NodeWorx 控制面板";
+$_LANG['veportallogin'] = "登录到 vePortal";
+$_LANG['virtualminlogin'] = "登录到控制面板";
+$_LANG['websitepanellogin'] = "登录到控制面板";
+$_LANG['whmsoniclogin'] = "登录到控制面板";
+$_LANG['xpanelmaillogin'] = "登录到 Webmail";
+$_LANG['xpanellogin'] = "登录到 XPanel";
+$_LANG['heartinternetlogin'] = "登录到控制面板";
+$_LANG['gamecplogin'] = "登录到 GameCP";
+$_LANG['fluidvmrestart'] = "重启 VPS 服务器";
+$_LANG['enomtrustedesc'] = "TRUSTe 控制面板包含了设置向导来启动和运行您的Privacy Policy。";
+$_LANG['enomtrustelogin'] = "登录到 TrustE 控制面板";
+$_LANG['directadminlogin'] = "登录到 DirectAdmin";
+$_LANG['centovacastlogin'] = "登录到 Centova Cast";
+$_LANG['castcontrollogin'] = "登录到控制面板";
+
+$_LANG['sslconfigurenow'] = "现在配置";
+$_LANG['sslprovisioningdate'] = "SSL 提供日期";
+$_LANG['globalsignvoucherscode'] = "您的 OneClickSSL 优惠码";
+$_LANG['globalsignvouchersnotissued'] = "尚未发布";
+
+$_LANG['domaintrffailreasonunavailable'] = "故障原因未明";
+
+$_LANG['clientareaprojects'] = "我的项目";
+
+$_LANG['clientgroupdiscount'] = "客户折扣";
+$_LANG['billableitemshours'] = "小时";
+$_LANG['billableitemshour'] = "小时";
+
+$_LANG['invoicefilename'] = "账单-";
+$_LANG['quotefilename'] = "报价-";
+
+# Licensing Addon
+
+$_LANG['licensingkey'] = "许可密钥";
+$_LANG['licensingvaliddomains'] = "有效域名";
+$_LANG['licensingvalidips'] = "有效IP";
+$_LANG['licensingvaliddirectory'] = "有效目录";
+$_LANG['licensingstatus'] = "许可证状态";
+$_LANG['licensingreissue'] = "补发许可证";
+$_LANG['licensingreissued'] = "有效的域名、IP和目录将会在下次使用证书时自动检测和保存。";
+
+# Domain Addons
+
+$_LANG['domainaddons'] = "附加服务";
+$_LANG['domainaddonsinfo'] = "以下附加服务可用于您的域名...";
+$_LANG['domainaddonsdnsmanagement'] = "DNS主机记录管理";
+$_LANG['domainaddonsidprotectioninfo'] = "启动您的ID保护来保护您的个人信息和减少大量往您的邮箱发送的的垃圾邮件。";
+$_LANG['domainaddonsdnsmanagementinfo'] = "外部DNS主机可以为您的网站加速和提供可用率和减少冗余。";
+$_LANG['domainaddonsemailforwardinginfo'] = "把邮件转发到您的备用电子邮箱，以便您可以统一监视。";
+$_LANG['domainaddonsbuynow'] = "立即购买";
+$_LANG['domainaddonsperyear'] = "/年";
+$_LANG['domainaddonscancelareyousure'] = "您确认要关闭并取消此域名附加服务吗？";
+$_LANG['domainaddonsconfirm'] = "确认取消";
 
 #制作：zh-whmcs project
 #地址：http://code.google.com/p/zh-whmcs/
