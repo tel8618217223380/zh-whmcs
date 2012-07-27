@@ -2737,26 +2737,3 @@ $_ADMINLANG['orderstatusconfig']['includeincancelled'] = "Include in Cancelled";
 */
 
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
