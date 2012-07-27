@@ -33,8 +33,10 @@ $_ADMINLANG['global']['optional'] = "可选";
 $_ADMINLANG['global']['ticktoenable'] = "勾选以启用";
 $_ADMINLANG['global']['savechanges'] = "保存更改";
 $_ADMINLANG['global']['cancelchanges'] = "取消更改";
+$_ADMINLANG['global']['save'] = "Save";
 $_ADMINLANG['global']['cancel'] = "取消";
 $_ADMINLANG['global']['delete'] = "删除";
+$_ADMINLANG['global']['deleteconfirm'] = "Are you sure you want to delete the selected items?";
 $_ADMINLANG['global']['validationerror'] = "验证错误";
 $_ADMINLANG['global']['none'] = "无";
 $_ADMINLANG['global']['default'] = "默认";
@@ -72,6 +74,8 @@ $_ADMINLANG['global']['changesuccess'] = "修改成功保存！";
 $_ADMINLANG['global']['changesuccessdesc'] = "您的修改已被保存。";
 $_ADMINLANG['global']['clientsintellisearch'] = "输入名称、公司、电子邮件地址去搜索(Enter Name, Company or Email to Search)";
 $_ADMINLANG['global']['ok'] = "OK";
+$_ADMINLANG['global']['view'] = "View";
+$_ADMINLANG['global']['attentionitems'] = "Attention Items";
 
 # Home
 $_ADMINLANG['home']['title'] = "后台首页";
@@ -191,6 +195,7 @@ $_ADMINLANG['clients']['incorrecthash'] = "CC加密Hash不正确";
 $_ADMINLANG['clients']['existingccdetails'] = "现有的信用卡信息";
 $_ADMINLANG['clients']['fullviewcardno'] = "查看完整的信用卡号码";
 $_ADMINLANG['clients']['entercchash'] = "要查看完整的信用卡号码,请在下面输入CC加密Hash.";
+$_ADMINLANG['clients']['ccstoredremotely'] = "* Only the last 4 digits of the credit card are stored locally since a token based remote storage module is being used.";
 $_ADMINLANG['clients']['enternewcc'] = "输入新的信用卡信息";
 $_ADMINLANG['clients']['cleardetails'] = "清除记录";
 $_ADMINLANG['clients']['ccdeletesure'] = "你确定删除保存的信用卡信息？";
@@ -265,7 +270,7 @@ $_ADMINLANG['clientsummary']['settingautocc'] = "Auto CC Processing";
 $_ADMINLANG['clientsummary']['settingreminders'] = "Send Overdue Reminders";
 $_ADMINLANG['clientsummary']['settinglatefees'] = "Apply Late Fees";
 $_ADMINLANG['clientsummary']['settingtoggle'] = "Toggle";
-
+$_ADMINLANG['clientsummary']['stickynotescheck'] = "Make Sticky (Important)";
 # Services
 $_ADMINLANG['services']['title'] = "产品/服务";
 $_ADMINLANG['services']['listall'] = "列出所有产品/服务";
@@ -469,6 +474,9 @@ $_ADMINLANG['domains']['pricinginfo'] = "在这里你可以配置TLDs让用户�
 $_ADMINLANG['domains']['autoreg'] = "自动注册";
 $_ADMINLANG['domains']['openpricing'] = "开放式价格";
 $_ADMINLANG['domains']['extensionalreadyexist'] = "该扩展 %s 已存在";
+$_ADMINLANG['domains']['duplicatetld'] = "Duplicate TLD";
+$_ADMINLANG['domains']['selecttldtoduplicate'] = "Select a TLD to duplicate";
+$_ADMINLANG['domains']['sourcenewtldempty'] = "Source TLD and New TLD should not be empty";
 $_ADMINLANG['domains']['slabsintro'] = "Pricing slabs can be created to offer groups of clients alternative pricing. Slabs are tied to client groups, so you need to set pricing for the default base slab, and then optionally for any of the client groups you want to offer custom pricing to.";
 $_ADMINLANG['domains']['pricingslabfor'] = "Pricing Slab for";
 $_ADMINLANG['domains']['defaultpricingslab'] = "Default Base Slab";
@@ -494,7 +502,9 @@ $_ADMINLANG['orders']['listcancelled'] = "被取消的订单";
 $_ADMINLANG['orders']['addnew'] = "添加新订单";
 $_ADMINLANG['orders']['noinvoicedue'] = "没有应付账单";
 $_ADMINLANG['orders']['accept'] = "审核通过";
+$_ADMINLANG['orders']['acceptconfirm'] = "Are you sure you want to approve the selected orders?";
 $_ADMINLANG['orders']['cancel'] = "取消订单";
+$_ADMINLANG['orders']['cancelconfirm'] = "Are you sure you want to cancel the selected orders?";
 $_ADMINLANG['orders']['cancelrefund'] = "取消并退款";
 $_ADMINLANG['orders']['fraud'] = "设为欺诈";
 $_ADMINLANG['orders']['pending'] = "设定回待审核状态";
@@ -555,7 +565,8 @@ $_ADMINLANG['orders']['toplacenew'] = "添加新订单.";
 $_ADMINLANG['orders']['vieworder'] = "查看订单";
 $_ADMINLANG['orders']['ordertype'] = "订单类型";
 $_ADMINLANG['orders']['createorder'] = "创建订单";
-
+$_ADMINLANG['orders']['createpromo'] = "Create Custom Promo";
+$_ADMINLANG['orders']['createpromoinfo'] = "Promotional Discounts created \"on the fly\" here apply to all items in an order";
 # Billing Cycles
 $_ADMINLANG['billingcycles']['free'] = "免费";
 $_ADMINLANG['billingcycles']['onetime'] = "一次性支付";
@@ -590,9 +601,13 @@ $_ADMINLANG['invoices']['attemptcccapturessuccess'] = "信用卡支付失败";
 $_ADMINLANG['invoices']['create'] = "添加账单";
 $_ADMINLANG['invoices']['delete'] = "确定删除该账单?(循环收费服务将在该账单周期内无法续费。)";
 $_ADMINLANG['invoices']['markpaid'] = "标记为已支付";
+$_ADMINLANG['invoices']['markpaidconfirm'] = "Are you sure you want to mark these invoices paid?";
 $_ADMINLANG['invoices']['markunpaid'] = "标记为未支付";
+$_ADMINLANG['invoices']['markunpaidconfirm'] = "Are you sure you want to set these invoices back to unpaid?";
 $_ADMINLANG['invoices']['markcancelled'] = "标记为被取消";
 $_ADMINLANG['invoices']['sendreminder'] = "发送邮件提醒";
+$_ADMINLANG['invoices']['sendreminder'] = "Send Reminder";
+$_ADMINLANG['invoices']['sendreminderconfirm'] = "Are you sure you want to send payment reminders for the selected invoices?";
 $_ADMINLANG['invoices']['summary'] = "摘要";
 $_ADMINLANG['invoices']['addpayment'] = "新增付款";
 $_ADMINLANG['invoices']['options'] = "选项";
@@ -601,6 +616,7 @@ $_ADMINLANG['invoices']['viewinvoices'] = "查看账单";
 $_ADMINLANG['invoices']['sendcreated'] = "发送新增账单邮件";
 $_ADMINLANG['invoices']['sendconfirmation'] = "发送付款确认邮件";
 $_ADMINLANG['invoices']['attemptcapture'] = "尝试信用卡扣费";
+$_ADMINLANG['invoices']['initiatepayment'] = "Initiate Payment";
 $_ADMINLANG['invoices']['printableversion'] = "打印账单";
 $_ADMINLANG['invoices']['viewpdf'] = "View PDF";
 $_ADMINLANG['invoices']['downloadpdf'] = "下载PDF";
@@ -2623,3 +2639,14 @@ $_ADMINLANG['bundles']['removeitemconfirm'] = "Are you sure you want to remove t
 */
 
 ?>
+
+
+
+
+
+
+
+
+
+
+
