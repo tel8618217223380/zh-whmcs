@@ -271,6 +271,7 @@ $_ADMINLANG['clientsummary']['settingreminders'] = "Send Overdue Reminders";
 $_ADMINLANG['clientsummary']['settinglatefees'] = "Apply Late Fees";
 $_ADMINLANG['clientsummary']['settingtoggle'] = "Toggle";
 $_ADMINLANG['clientsummary']['stickynotescheck'] = "Make Sticky (Important)";
+
 # Services
 $_ADMINLANG['services']['title'] = "产品/服务";
 $_ADMINLANG['services']['listall'] = "列出所有产品/服务";
@@ -474,9 +475,11 @@ $_ADMINLANG['domains']['pricinginfo'] = "在这里你可以配置TLDs让用户�
 $_ADMINLANG['domains']['autoreg'] = "自动注册";
 $_ADMINLANG['domains']['openpricing'] = "开放式价格";
 $_ADMINLANG['domains']['extensionalreadyexist'] = "该扩展 %s 已存在";
+
 $_ADMINLANG['domains']['duplicatetld'] = "Duplicate TLD";
 $_ADMINLANG['domains']['selecttldtoduplicate'] = "Select a TLD to duplicate";
 $_ADMINLANG['domains']['sourcenewtldempty'] = "Source TLD and New TLD should not be empty";
+
 $_ADMINLANG['domains']['slabsintro'] = "Pricing slabs can be created to offer groups of clients alternative pricing. Slabs are tied to client groups, so you need to set pricing for the default base slab, and then optionally for any of the client groups you want to offer custom pricing to.";
 $_ADMINLANG['domains']['pricingslabfor'] = "Pricing Slab for";
 $_ADMINLANG['domains']['defaultpricingslab'] = "Default Base Slab";
@@ -509,6 +512,7 @@ $_ADMINLANG['orders']['cancelrefund'] = "取消并退款";
 $_ADMINLANG['orders']['fraud'] = "设为欺诈";
 $_ADMINLANG['orders']['pending'] = "设定回待审核状态";
 $_ADMINLANG['orders']['delete'] = "删除订单";
+$_ADMINLANG['orders']['deleteconfirm'] = "Are you sure you want to delete the selected orders?";
 $_ADMINLANG['orders']['statusaccept'] = "已审核订单";
 $_ADMINLANG['orders']['statusacceptmsg'] = "这个订单已被成功审核";
 $_ADMINLANG['orders']['statusaccepterror'] = "审核订单时遇到问题";
@@ -567,6 +571,7 @@ $_ADMINLANG['orders']['ordertype'] = "订单类型";
 $_ADMINLANG['orders']['createorder'] = "创建订单";
 $_ADMINLANG['orders']['createpromo'] = "Create Custom Promo";
 $_ADMINLANG['orders']['createpromoinfo'] = "Promotional Discounts created \"on the fly\" here apply to all items in an order";
+
 # Billing Cycles
 $_ADMINLANG['billingcycles']['free'] = "免费";
 $_ADMINLANG['billingcycles']['onetime'] = "一次性支付";
@@ -622,8 +627,12 @@ $_ADMINLANG['invoices']['viewpdf'] = "View PDF";
 $_ADMINLANG['invoices']['downloadpdf'] = "下载PDF";
 $_ADMINLANG['invoices']['capturesuccessful'] = "信用卡扣费成功";
 $_ADMINLANG['invoices']['capturesuccessfulmsg'] = "已成功向用户信用卡扣款!";
+$_ADMINLANG['invoices']['initiatepaymentsuccessful'] = "Payment Initiation Successful";
+$_ADMINLANG['invoices']['initiatepaymentsuccessfulmsg'] = "The payment process for this invoice was successfully initiated";
 $_ADMINLANG['invoices']['captureerror'] = "信用卡扣费失败";
 $_ADMINLANG['invoices']['captureerrormsg'] = "向信用卡扣费失败，请检查接口日志查找原因.";
+$_ADMINLANG['invoices']['initiatepaymenterror'] = "Payment Initiation Failed";
+$_ADMINLANG['invoices']['initiatepaymenterrormsg'] = "The payment initiation did not complete successfully. Please check the gateway log for more details.";
 $_ADMINLANG['invoices']['refundsuccess'] = "退款成功";
 $_ADMINLANG['invoices']['refundfailed'] = "退款失败";
 $_ADMINLANG['invoices']['refundmanualsuccessmsg'] = "退款交易条目成功添加";
@@ -645,10 +654,12 @@ $_ADMINLANG['invoices']['transactions'] = "交易明细";
 $_ADMINLANG['invoices']['taxdue'] = "税款";
 $_ADMINLANG['invoices']['split'] = "拆分到新账单";
 $_ADMINLANG['invoices']['merge'] = "合并";
+$_ADMINLANG['invoices']['mergeconfirm'] = "Are you sure you want to merge the selected invoices?";
 $_ADMINLANG['invoices']['mergeerror'] = "合并错误";
 $_ADMINLANG['invoices']['mergeerrordesc'] = "你必须至少选择2个账单来合并";
 $_ADMINLANG['invoices']['massdeleteconfirm'] = "Are you sure you want to delete the selected invoices?";
 $_ADMINLANG['invoices']['masspay'] = "Mass Pay";
+$_ADMINLANG['invoices']['masspayconfirm'] = "Are you sure you want to generate a mass pay invoice for the selected invoices?";
 $_ADMINLANG['invoices']['masspaysuccess'] = "Mass Pay Invoice Created Successfully!";
 
 # Billable Items
@@ -667,6 +678,7 @@ $_ADMINLANG['billableitems']['dontinvoice'] = "不产生账单";
 $_ADMINLANG['billableitems']['dontinvoicefornow'] = "现在不产生账单";
 $_ADMINLANG['billableitems']['nextcronrun'] = "下次cron执行";
 $_ADMINLANG['billableitems']['invoicenextcronrun'] = "等到下次cron执行时再产生账单";
+$_ADMINLANG['billableitems']['invoicenextcronrunconfirm'] = "Are you sure you want to set these items to invoice in the next cron run?";
 $_ADMINLANG['billableitems']['nextinvoice'] = "用户下个账单";
 $_ADMINLANG['billableitems']['addnextinvoice'] = "添加到用户的下个账单上";
 $_ADMINLANG['billableitems']['invoiceduedate'] = "下个到期日";
@@ -730,6 +742,7 @@ $_ADMINLANG['support']['publishedann'] = "已发布的公告";
 $_ADMINLANG['support']['unpublishedann'] = "未发布的公告";
 $_ADMINLANG['support']['totaldlfiles'] = "所有下载文件";
 $_ADMINLANG['support']['totaldls'] = "总计下载";
+$_ADMINLANG['support']['expand'] = "Expand +";
 $_ADMINLANG['support']['mostdlfiles'] = "下载次数最多的文件";
 $_ADMINLANG['support']['nodlfiles'] = "没有记录";
 $_ADMINLANG['support']['ticketstats'] = "支持单统计";
@@ -815,8 +828,6 @@ $_ADMINLANG['support']['spamupdatesuccessinfo'] = " $email 已被加入黑名单
 $_ADMINLANG['support']['noticketdepts'] = "你没有被分配到任何客服部门，所以无法查看或回复任何支持单";
 $_ADMINLANG['support']['autorefresh'] = "自动刷新";
 $_ADMINLANG['support']['searchin'] = "搜索";
-$_ADMINLANG['support']['anystatus'] = "任何状态";
-$_ADMINLANG['support']['anydepartment'] = "任何部门";
 $_ADMINLANG['support']['ticketid'] = "支持单ID";
 $_ADMINLANG['support']['subjectmessage'] = "主题/内容";
 $_ADMINLANG['support']['autorefreshevery'] = "每";
@@ -831,6 +842,7 @@ $_ADMINLANG['support']['massblockdeleteconfirm'] = "Are you sure you wish to del
 $_ADMINLANG['support']['datesubmitted'] = "提交时间";
 $_ADMINLANG['support']['submitter'] = "提问人";
 $_ADMINLANG['support']['lastreply'] = "上次回复";
+$_ADMINLANG['support']['user'] = "User";
 $_ADMINLANG['support']['ticketnotfound'] = "支持单ID没有找到.";
 $_ADMINLANG['support']['pleasetryagain'] = "请重试";
 $_ADMINLANG['support']['deptnoaccess'] = "止步，这个支持单不属于你所在的客服部门.";
@@ -851,6 +863,9 @@ $_ADMINLANG['support']['delattachment'] = "Are you sure you want to delete this 
 $_ADMINLANG['support']['statuschanged'] = "这个支持单的状态已改变，可能另一个客服已答复了Ta.";
 $_ADMINLANG['support']['stillsubmit'] = "你确定还要回复一遍吗?";
 $_ADMINLANG['support']['addreply'] = "添加回复";
+$_ADMINLANG['support']['ticketlog'] = "Log";
+$_ADMINLANG['support']['clienttickets'] = "Other Tickets";
+$_ADMINLANG['support']['clientlog'] = "Client Log";
 $_ADMINLANG['support']['addnote'] = "添加备注";
 $_ADMINLANG['support']['postreply'] = "发表回复";
 $_ADMINLANG['support']['setansweredreturn'] = "设为已答复并转到已答复支持单列表";
@@ -955,6 +970,7 @@ $_ADMINLANG['affiliates']['commissionshistory'] = "生效记录";
 $_ADMINLANG['affiliates']['withdrawalshistory'] = "提现金额";
 $_ADMINLANG['affiliates']['never'] = "从不";
 $_ADMINLANG['affiliates']['commission'] = "佣金";
+$_ADMINLANG['affiliates']['initiallythen'] = "Initially then";
 $_ADMINLANG['affiliates']['lastpaid'] = "上次结算";
 $_ADMINLANG['affiliates']['productstatus'] = "产品状态";
 $_ADMINLANG['affiliates']['manual'] = "手动";
@@ -1028,6 +1044,7 @@ $_ADMINLANG['setup']['bannedips'] = "禁止的IP";
 $_ADMINLANG['setup']['bannedemails'] = "禁止的Email";
 $_ADMINLANG['setup']['backups'] = "数据库备份";
 $_ADMINLANG['setup']['customfields'] = "客户自定义区域";
+$_ADMINLANG['setup']['orderstatuses'] = "Order Statuses";
 
 # Help
 $_ADMINLANG['help']['title'] = "帮助中心";
@@ -1135,6 +1152,7 @@ $_ADMINLANG['fields']['expdate'] = "过期时间";
 $_ADMINLANG['fields']['issueno'] = "授权码(CVV/CVV2)";
 $_ADMINLANG['fields']['startdate'] = "开始时间";
 $_ADMINLANG['fields']['mmyy'] = "MM/YY";
+$_ADMINLANG['fields']['gatewayid'] = "Remote Gateway Token";
 $_ADMINLANG['fields']['groupname'] = "用户组";
 $_ADMINLANG['fields']['name'] = "名称";
 $_ADMINLANG['fields']['options'] = "选项";
@@ -1164,6 +1182,7 @@ $_ADMINLANG['fields']['action'] = "Action";
 $_ADMINLANG['fields']['request'] = "Request";
 $_ADMINLANG['fields']['response'] = "Response";
 $_ADMINLANG['fields']['interpretedresponse'] = "Interpreted Response";
+$_ADMINLANG['fields']['lineitem'] = "Line Item Description";
 
 # Contact Permissions
 $_ADMINLANG['contactpermissions']['permprofile'] = "修改主帐户资料";
@@ -1236,6 +1255,7 @@ $_ADMINLANG['permissions']['9'] = "编辑用户资料";
 $_ADMINLANG['permissions']['10'] = "查看信用卡信息";
 $_ADMINLANG['permissions']['106'] = "Decrypt Full Credit Card Number";
 $_ADMINLANG['permissions']['107'] = "Update/Delete Stored Credit Card";
+$_ADMINLANG['permissions']['123'] = "Attempts CC Captures";
 $_ADMINLANG['permissions']['11'] = "查看用户产品/服务";
 $_ADMINLANG['permissions']['12'] = "编辑用户产品/服务";
 $_ADMINLANG['permissions']['99'] = "创建 升级/降级订单";
@@ -1264,6 +1284,7 @@ $_ADMINLANG['permissions']['30'] = "编辑交易流水信息";
 $_ADMINLANG['permissions']['31'] = "删除交易流水信息";
 $_ADMINLANG['permissions']['33'] = "列出账单";
 $_ADMINLANG['permissions']['34'] = "生成账单";
+$_ADMINLANG['permissions']['124'] = "Generate Due Invoices";
 $_ADMINLANG['permissions']['35'] = "管理账单";
 $_ADMINLANG['permissions']['36'] = "删除账单";
 $_ADMINLANG['permissions']['92'] = "退款账单";
@@ -1279,6 +1300,7 @@ $_ADMINLANG['permissions']['41'] = "管理下载中心";
 $_ADMINLANG['permissions']['84'] = "管理网络问题";
 $_ADMINLANG['permissions']['42'] = "列出支持单";
 $_ADMINLANG['permissions']['105'] = "View Support Ticket";
+$_ADMINLANG['permissions']['121'] = "Access All Tickets Directly";
 $_ADMINLANG['permissions']['82'] = "查看标记的支持单";
 $_ADMINLANG['permissions']['43'] = "开新支持单";
 $_ADMINLANG['permissions']['93'] = "删除支持单";
@@ -1314,6 +1336,7 @@ $_ADMINLANG['permissions']['67'] = "自动任务计划";
 $_ADMINLANG['permissions']['86'] = "设置货币";
 $_ADMINLANG['permissions']['68'] = "支付接口";
 $_ADMINLANG['permissions']['69'] = "税费设置";
+$_ADMINLANG['permissions']['122'] = "Configure Order Statuses";
 $_ADMINLANG['permissions']['70'] = "邮件模板";
 $_ADMINLANG['permissions']['113'] = "Create/Edit Email Templates";
 $_ADMINLANG['permissions']['114'] = "Delete Email Templates";
@@ -1359,6 +1382,7 @@ $_ADMINLANG['addonmodules']['description'] = "你可以在这里激活和管理�
 $_ADMINLANG['addonmodules']['module'] = "模块";
 $_ADMINLANG['addonmodules']['author'] = "作者";
 $_ADMINLANG['addonmodules']['activate'] = "激活";
+$_ADMINLANG['addonmodules']['deactivate'] = "Deactivate";
 $_ADMINLANG['addonmodules']['deactivate'] = "禁用";
 $_ADMINLANG['addonmodules']['rolechoose'] = "选择可以访问这个模块的管理组";
 $_ADMINLANG['addonmodules']['accesscontrol'] = "访问控制";
@@ -1541,6 +1565,8 @@ $_ADMINLANG['products']['sortorderdesc'] = "在此处输入数字以替换默认
 $_ADMINLANG['products']['applytax'] = "需要交税";
 $_ADMINLANG['products']['applytaxdesc'] = "勾选此处以对该产品收税";
 $_ADMINLANG['products']['hiddendesc'] = "勾选以从订购页面隐藏";
+$_ADMINLANG['products']['retired'] = "Retired";
+$_ADMINLANG['products']['retireddesc'] = "Tick to hide from admin area product dropdown menus (does not apply to services already with this product)";
 $_ADMINLANG['products']['paymenttype'] = "付款类型";
 $_ADMINLANG['products']['disablepaymenttermdesc'] = "Set to -1.00 to disable any of the payment term options";
 $_ADMINLANG['products']['allowqty'] = "Allow Multiple Quantities";
@@ -1583,6 +1609,7 @@ $_ADMINLANG['products']['diskoveragescost'] = "硬盘超限费用";
 $_ADMINLANG['products']['bwoveragescost'] = "流量超限费用";
 $_ADMINLANG['products']['directcartlink'] = "产品链接";
 $_ADMINLANG['products']['directscartlink'] = "直接购物车链接";
+$_ADMINLANG['products']['directscartlink'] = "Direct Shopping Cart Link";
 $_ADMINLANG['products']['directscarttpllink'] = "指定模板的直接购物车链接";
 $_ADMINLANG['products']['directscartdomlink'] = "包含域名的直接购物车链接";
 $_ADMINLANG['products']['productgcartlink'] = "产品组订购链接";
@@ -1596,7 +1623,6 @@ $_ADMINLANG['products']['availablepgways'] = "可用的支付网关";
 $_ADMINLANG['products']['hiddengroupdesc'] = "勾选以隐藏该组";
 $_ADMINLANG['products']['creategroup'] = "创建分组";
 $_ADMINLANG['products']['editgroup'] = "编辑分组";
-$_ADMINLANG['products']['pricepermb'] = "每MB价格";
 $_ADMINLANG['products']['addcategory'] = "添加分类";
 $_ADMINLANG['products']['quickupload'] = "快速上传";
 $_ADMINLANG['products']['updatesort'] = "更新排序";
@@ -1762,6 +1788,7 @@ $_ADMINLANG['backups']['ftpuser'] = "FTP 用户名";
 $_ADMINLANG['backups']['ftppass'] = "FTP 密码";
 $_ADMINLANG['backups']['ftphost'] = "FTP 服务器名";
 $_ADMINLANG['backups']['ftppath'] = "FTP 路径";
+$_ADMINLANG['backups']['ftppassivemode'] = "FTP 被动模式";
 
 # System
 $_ADMINLANG['system']['activitylog'] = "系统日志";
@@ -1927,6 +1954,7 @@ $_ADMINLANG['customfields']['fieldname'] = "区域名称";
 $_ADMINLANG['customfields']['order'] = "显示顺序";
 $_ADMINLANG['customfields']['fieldtype'] = "区域类型";
 $_ADMINLANG['customfields']['typetextbox'] = "文本框";
+$_ADMINLANG['customfields']['typelink'] = "Link/URL";
 $_ADMINLANG['customfields']['typepassword'] = "密码";
 $_ADMINLANG['customfields']['typedropdown'] = "下拉式";
 $_ADMINLANG['customfields']['typetickbox'] = "勾选项";
@@ -2019,6 +2047,7 @@ $_ADMINLANG['mergefields']['assignedips'] = "分配的IP";
 $_ADMINLANG['mergefields']['nameserver'] = "Nameserver";
 $_ADMINLANG['mergefields']['ip'] = "IP";
 $_ADMINLANG['mergefields']['suspreason'] = "暂停原因";
+$_ADMINLANG['mergefields']['canceltype'] = "Cancellation Type";
 $_ADMINLANG['mergefields']['customfieldsarray'] = "客户自定义区域 (Array)";
 $_ADMINLANG['mergefields']['order'] = "订单相关";
 $_ADMINLANG['mergefields']['duetoday'] = "今日逾期总计";
@@ -2093,9 +2122,11 @@ $_ADMINLANG['general']['templateinfo'] = "你想让WHMCS使用的模板";
 $_ADMINLANG['general']['limitactivitylog'] = "Limit Activity Log";
 $_ADMINLANG['general']['limitactivityloginfo'] = "The Number of Activity Log Entries you wish to keep";
 $_ADMINLANG['general']['recstodisplay'] = "Records to Display per Page";
-$_ADMINLANG['general']['maintmode'] = "Maintenance Mode";
+$_ADMINLANG['general']['maintmode'] = "维护模式";
 $_ADMINLANG['general']['maintmodeinfo'] = "Tick to enable - prevents client area access when enabled";
 $_ADMINLANG['general']['maintmodemessage'] = "Maintenance Mode Message";
+$_ADMINLANG['general']['maintmodeurl'] = "Maintenance Mode Redirect URL";
+$_ADMINLANG['general']['maintmodeurlinfo'] = "If specified, redirects client area visitors to this URL when Maintenance Mode is enabled";
 $_ADMINLANG['general']['charset'] = "System Charset";
 $_ADMINLANG['general']['dateformat'] = "Date Format";
 $_ADMINLANG['general']['dateformatinfo'] = "The format you want WHMCS to use to display dates";
@@ -2142,6 +2173,12 @@ $_ADMINLANG['general']['autorenew'] = "Auto Renew on Payment";
 $_ADMINLANG['general']['autorenewinfo'] = "Automatically renew domains which are set to a supported registrar when they are paid for";
 $_ADMINLANG['general']['defaultrenew'] = "Default Auto Renewal Setting";
 $_ADMINLANG['general']['defaultrenewinfo'] = "This can be changed per domain, but sets the default of whether invoices should auto generate for expiring domains";
+$_ADMINLANG['general']['domainsyncenabled'] = "Domain Sync Enabled";
+$_ADMINLANG['general']['domainsyncenabledinfo'] = "Tick this box to enable automated domain syncing with supported registrars via cron";
+$_ADMINLANG['general']['domainsyncnextduedate'] = "Sync Next Due Date";
+$_ADMINLANG['general']['domainsyncnextduedateinfo'] = "Enable - Number of Days to Set Due Date in Advance of Expiry:";
+$_ADMINLANG['general']['domainsyncnotifyonly'] = "Domain Sync Notify Only";
+$_ADMINLANG['general']['domainsyncnotifyonlyinfo'] = "Tick this box to not auto update any domain dates - just send email notification to admins";
 $_ADMINLANG['general']['allowidndomains'] = "Allow IDN Domains";
 $_ADMINLANG['general']['allowidndomainsinfo'] = "Tick this box to not enforce A-Z 0-9 character validation for domains entered via the client area";
 $_ADMINLANG['general']['bulkdomainsearch'] = "Bulk Domain Search";
@@ -2172,6 +2209,8 @@ $_ADMINLANG['general']['presalesdept'] = "Choose a Department - OR - Send to ema
 $_ADMINLANG['general']['presalesemail'] = "Presales Contact Form Email";
 $_ADMINLANG['general']['supportmodule'] = "Support Module";
 $_ADMINLANG['general']['builtin'] = "WHMCS Built-in System";
+$_ADMINLANG['general']['ticketmask'] = "Support Ticket Mask Format";
+$_ADMINLANG['general']['ticketmaskinfo'] = "Key: %A - Uppercase letter | %a - Lowercase letter | %n - Number | %y - Year | %m - Month | %d - Day | %i - Ticket ID";
 $_ADMINLANG['general']['ticketreplyorder'] = "Ticket Reply List Order";
 $_ADMINLANG['general']['orderasc'] = "Ascending (Oldest to Newest)";
 $_ADMINLANG['general']['orderdesc'] = "Descending (Newest to Oldest)";
@@ -2254,6 +2293,8 @@ $_ADMINLANG['general']['addfundsrequireorderinfo'] = "Require an active order be
 $_ADMINLANG['general']['enableaff'] = "Tick this box to enable the affiliate system";
 $_ADMINLANG['general']['affpercentage'] = "Affiliate Earning Percentage";
 $_ADMINLANG['general']['affpercentageinfo'] = "Enter the percentage of each payment you want affiliates to receive";
+$_ADMINLANG['general']['affdepartment'] = "Payout Request Department";
+$_ADMINLANG['general']['affdepartmentinfo'] = "Select the support department to use for affiliate withdrawal requests";
 $_ADMINLANG['general']['affbonus'] = "Affiliate Bonus Deposit";
 $_ADMINLANG['general']['affbonusinfo'] = "Enter the amount you want affiliates to receive in their account after signing up";
 $_ADMINLANG['general']['affpayamount'] = "Affiliate Payout Amount";
@@ -2283,7 +2324,7 @@ $_ADMINLANG['general']['disableadminpwreset'] = "Disable Admin Password Reset";
 $_ADMINLANG['general']['disableadminpwresetinfo'] = "Tick this box to disable the forgotten password feature on the admin login page";
 $_ADMINLANG['general']['disableccstore'] = "Disable Credit Card Storage";
 $_ADMINLANG['general']['disableccstoreinfo'] = "Tick this box to not store customers credit cards in the database for repeat billing";
-$_ADMINLANG['general']['allowccdelete'] = "Allow Customers CC Delete";
+$_ADMINLANG['general']['allowccdelete'] = "Allow Client CC Removal";
 $_ADMINLANG['general']['allowccdeleteinfo'] = "Tick this box to allow customers to delete the credit card details stored on their account";
 $_ADMINLANG['general']['disablemd5'] = "Disable MD5 Clients Password";
 $_ADMINLANG['general']['disablemd5info'] = "This is not recommended as passwords can be decrypted (Disabling this resets all clients passwords)";
@@ -2312,6 +2353,8 @@ $_ADMINLANG['general']['defaulttoclientarea'] = "Default to Client Area";
 $_ADMINLANG['general']['defaulttoclientareainfo'] = "Tick this box to skip the homepage and forward users directly to the client area/login form upon first visiting WHMCS";
 $_ADMINLANG['general']['allowclientreg'] = "Allow Client Registration";
 $_ADMINLANG['general']['allowclientreginfo'] = "Tick this box to allow registration without ordering any products/services";
+$_ADMINLANG['general']['profileoptionalfields'] = "Optional Client Profile Fields";
+$_ADMINLANG['general']['profileoptionalfieldsinfo'] = "Tick any of the fields below to make them optional at signup time";
 $_ADMINLANG['general']['lockedfields'] = "Locked Client Profile Fields";
 $_ADMINLANG['general']['lockedfieldsinfo'] = "Select any fields below that you want to prevent clients being able to edit from the client area";
 $_ADMINLANG['general']['clientdetailsnotify'] = "Client Details Change Notify";
@@ -2351,10 +2394,11 @@ $_ADMINLANG['taxconfig']['level2rules'] = "Level 2 Rules";
 $_ADMINLANG['taxconfig']['addnewrule'] = "Add New Tax Rule";
 $_ADMINLANG['taxconfig']['taxappliesanystate'] = "Applies to Any State";
 $_ADMINLANG['taxconfig']['taxappliesallstate'] = "Apply Rule to All States";
-$_ADMINLANG['taxconfig']['taxappliesspecificstate'] = "Apply to Specific State:";
-$_ADMINLANG['taxconfig']['taxappliesspecificcountry'] = "Apply to Specific Country:";
+$_ADMINLANG['taxconfig']['taxappliesspecificstate'] = "Apply to Specific State";
+$_ADMINLANG['taxconfig']['taxappliesspecificcountry'] = "Apply to Specific Country";
 $_ADMINLANG['taxconfig']['taxappliesanycountry'] = "Applies to Any Country";
 $_ADMINLANG['taxconfig']['taxappliesallcountry'] = "Apply Rule to All Countries";
+$_ADMINLANG['taxconfig']['taxvalidationerrorcountry'] = "A country must also be selected for a state specific tax rule";
 $_ADMINLANG['taxconfig']['level'] = "Level";
 $_ADMINLANG['taxconfig']['addrule'] = "Add Rule";
 
@@ -2487,7 +2531,9 @@ $_ADMINLANG['offlineccp']['entercchashdie'] = "ENCRYPTION HASH INCORRECT. EXITIN
 $_ADMINLANG['offlineccp']['transresult'] = "Transaction Result";
 
 # Config Ticket Statuses
-$_ADMINLANG['ticketstatusconfig']['pagedesc'] = "Here you can define the ticket statuses that your WHMCS system will show. The 4 default statuses Open, Answered, Customer-Reply and Closed cannot be deleted or renamed.";
+$_ADMINLANG['ticketstatusconfig']['pagedesc'] = "Here you can define the ticket statuses that you wish to have available in support tickets. The 4 default statuses Open, Answered, Customer-Reply and Closed cannot be deleted or renamed.";
+$_ADMINLANG['ticketstatusconfig']['add'] = "Add Ticket Status";
+$_ADMINLANG['ticketstatusconfig']['edit'] = "Edit Ticket Status";
 $_ADMINLANG['ticketstatusconfig']['statusaddtitle'] = "Status Added Successfully";
 $_ADMINLANG['ticketstatusconfig']['statusadddesc'] = "The new status has now been added";
 $_ADMINLANG['ticketstatusconfig']['statusedittitle'] = "Status Updated Successfully";
@@ -2526,8 +2572,9 @@ $_ADMINLANG['massmail']['composemsg'] = "Compose Message";
 
 # Promotions
 $_ADMINLANG['promos']['title'] = "促销/优惠码";
-$_ADMINLANG['promos']['info'] = "优惠码能给客户提供折扣，刺激客户购买新产品或升级。";
-$_ADMINLANG['promos']['addnew'] = "添加新";
+$_ADMINLANG['promos']['activepromos'] = "Active Promotions";
+$_ADMINLANG['promos']['expiredpromos'] = "Expired Promotions";
+$_ADMINLANG['promos']['allpromos'] = "All Promotions";
 $_ADMINLANG['promos']['deletesure'] = "确定删除此优惠码？";
 $_ADMINLANG['promos']['deletesuccess'] = "优惠码删除成功！";
 $_ADMINLANG['promos']['addsuccess'] = "优惠码添加成功！";
@@ -2542,6 +2589,7 @@ $_ADMINLANG['promos']['duplicatepromo'] = "Duplicate Promotion";
 $_ADMINLANG['promos']['existingpromo'] = "Existing Promotion";
 $_ADMINLANG['promos']['editpromo'] = "编辑优惠码";
 $_ADMINLANG['promos']['addpromo'] = "添加优惠码";
+$_ADMINLANG['promos']['autogencode'] = "Auto Generate Code";
 $_ADMINLANG['promos']['appliesto'] = "应用到";
 $_ADMINLANG['promos']['requires'] = "Requires";
 $_ADMINLANG['promos']['percentage'] = "百分比";
@@ -2556,6 +2604,8 @@ $_ADMINLANG['promos']['leaveblank'] = "Leave blank for none";
 $_ADMINLANG['promos']['maxuses'] = "最大使用次数";
 $_ADMINLANG['promos']['numuses'] = "使用次数";
 $_ADMINLANG['promos']['unlimiteduses'] = "Enter 0 to allow unlimited uses";
+$_ADMINLANG['promos']['lifetimepromo'] = "Lifetime Promotion";
+$_ADMINLANG['promos']['lifetimepromodesc'] = "Discounted pricing is applied even on upgrade and downgrade orders in the future regardless of settings like max uses, expiry, etc;";
 $_ADMINLANG['promos']['applyonce'] = "Apply Once";
 $_ADMINLANG['promos']['applyoncedesc'] = "Apply only once per order (even if multiple items qualify)";
 $_ADMINLANG['promos']['newsignups'] = "New Signups";
@@ -2591,6 +2641,13 @@ $_ADMINLANG['domainregistrars']['defaultns5'] = "Default Nameserver 5";
 $_ADMINLANG['domainregistrars']['defaultcontactdetails'] = "Default Billing/Admin/Tech Contact Details";
 $_ADMINLANG['domainregistrars']['useclientsdetails'] = "Use Clients Details";
 $_ADMINLANG['domainregistrars']['useclientsdetailsdesc'] = "Tick this box to use clients details for the Billing/Admin/Tech contacts";
+$_ADMINLANG['domainregistrars']['moduleactivated'] = "Registrar Module Activated";
+$_ADMINLANG['domainregistrars']['moduleactivatedinfo'] = "The selected registrar was activated successfully. You may now configure it below.";
+$_ADMINLANG['domainregistrars']['moduledeactivated'] = "Registrar Module Deactivated";
+$_ADMINLANG['domainregistrars']['moduledeactivatedinfo'] = "The selected registrar was deactivated successfully.";
+$_ADMINLANG['domainregistrars']['deactivatesure'] = "Are you sure you want to deactivate this registrar module?";
+$_ADMINLANG['domainregistrars']['changesuccess'] = "Changes Saved Successfully!";
+$_ADMINLANG['domainregistrars']['changesuccessinfo'] = "The changes you made have been saved successfully";
 
 # Product Bundles
 $_ADMINLANG['bundles']['createnewbundle'] = " Create New Bundle";
@@ -2631,6 +2688,47 @@ $_ADMINLANG['bundles']['configureproduct'] = "Configure Product";
 $_ADMINLANG['bundles']['deletebundleconfirm'] = "Are you sure you want to delete this bundle?";
 $_ADMINLANG['bundles']['removeitemconfirm'] = "Are you sure you want to remove this item from the bundle?";
 
+# Filters
+$_ADMINLANG['filters']['from'] = "From";
+$_ADMINLANG['filters']['to'] = "To";
+
+# Reports
+$_ADMINLANG['reports']['title'] = "Reports";
+$_ADMINLANG['reports']['description'] = "The reports below provide both data analysis and in many cases graphical insights into the data held in the system. You can also create your own reports should you have custom needs. Click the Help icon for more details.";
+$_ADMINLANG['reports']['csvexports'] = "CSV Exports";
+$_ADMINLANG['reports']['csvexportsdesc'] = "Export and download your data for use in other applications.";
+$_ADMINLANG['reports']['nodata'] = "No Data Found For This Report";
+$_ADMINLANG['reports']['generatedon'] = "Report Generated on";
+$_ADMINLANG['reports']['tools'] = "Tools";
+$_ADMINLANG['reports']['exportcsv'] = "Export to CSV";
+$_ADMINLANG['reports']['printableversion'] = "View Printable Version";
+$_ADMINLANG['reports']['closewindow'] = "Close Window";
+
+# WHOIS
+$_ADMINLANG['whois']['title'] = "Domain WHOIS Lookup";
+$_ADMINLANG['whois']['invalidtld'] = "WHOIS Lookups cannot be performed for the TLD %s";
+$_ADMINLANG['whois']['available'] = "The domain %s is available for registration";
+$_ADMINLANG['whois']['error'] = "There was a problem connecting to the domain registry. Please check port 43 is open in your servers firewall.";
+$_ADMINLANG['whois']['unavailable'] = "The domain %s is already registered";
+$_ADMINLANG['whois']['whois'] = "WHOIS Output";
+
+# Config Order Statuses
+$_ADMINLANG['orderstatusconfig']['pagedesc'] = "Here you can define the order statuses you wish to use. The 4 default statuses Pending, Active, Fraud and Cancelled cannot be deleted or renamed.";
+$_ADMINLANG['orderstatusconfig']['addnew'] = "Add New Order Status";
+$_ADMINLANG['orderstatusconfig']['edit'] = "Edit Order Status";
+$_ADMINLANG['orderstatusconfig']['addtitle'] = "Status Added Successfully";
+$_ADMINLANG['orderstatusconfig']['adddesc'] = "The new order status has now been added";
+$_ADMINLANG['orderstatusconfig']['edittitle'] = "Status Updated Successfully";
+$_ADMINLANG['orderstatusconfig']['editdesc'] = "The order status has been updated";
+$_ADMINLANG['orderstatusconfig']['deltitle'] = "Status Deleted Successfully";
+$_ADMINLANG['orderstatusconfig']['deldesc'] = "The order status has now been removed and all tickets using it switched to Cancelled";
+$_ADMINLANG['orderstatusconfig']['delsure'] = "Are you sure you want to delete this order status? Doing so will change all orders assigned to this status to Cancelled.";
+$_ADMINLANG['orderstatusconfig']['color'] = "Status Color";
+$_ADMINLANG['orderstatusconfig']['includeinpending'] = "Include in Pending";
+$_ADMINLANG['orderstatusconfig']['includeinactive'] = "Include in Active";
+$_ADMINLANG['orderstatusconfig']['includeincancelled'] = "Include in Cancelled";
+
+
 /*
 制作：zh-whmcs project
 地址：http://code.google.com/p/zh-whmcs/
@@ -2639,6 +2737,18 @@ $_ADMINLANG['bundles']['removeitemconfirm'] = "Are you sure you want to remove t
 */
 
 ?>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
