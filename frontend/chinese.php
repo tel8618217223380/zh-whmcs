@@ -1365,7 +1365,7 @@ $_LANG['domainaddonsperyear'] = "/年";
 $_LANG['domainaddonscancelareyousure'] = "您确认要关闭并取消此域名附加服务吗？";
 $_LANG['domainaddonsconfirm'] = "确认取消";
 
-#制作：zh-whmcs project
-#地址：http://code.google.com/p/zh-whmcs/
-#维护者请见项目维基页面
-#发现Bug欢迎上报
+/*制作：zh-whmcs project
+地址：http://code.google.com/p/zh-whmcs/
+维护者请见项目维基页面
+发现Bug欢迎上报*/

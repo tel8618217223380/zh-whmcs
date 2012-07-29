@@ -6,7 +6,7 @@ $_ADMINLANG['global']['searchfilter'] = "搜索";
 $_ADMINLANG['global']['search'] = "搜索";
 $_ADMINLANG['global']['recordsfound'] = "找到记录";
 $_ADMINLANG['global']['page'] = "页";
-$_ADMINLANG['global']['of'] = "/";
+$_ADMINLANG['global']['of'] = "of";
 $_ADMINLANG['global']['jumppage'] = "跳转到";
 $_ADMINLANG['global']['go'] = "Go";
 $_ADMINLANG['global']['any'] = "任意";
@@ -2729,11 +2729,9 @@ $_ADMINLANG['orderstatusconfig']['includeinactive'] = "Include in Active";
 $_ADMINLANG['orderstatusconfig']['includeincancelled'] = "Include in Cancelled";
 
 
-/*
-制作：zh-whmcs project
+/*制作：zh-whmcs project
 地址：http://code.google.com/p/zh-whmcs/
 维护者请见项目维基界面
-发现Bug欢迎上报
-*/
+发现Bug欢迎上报*/
 
 ?>
