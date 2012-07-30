@@ -1,6 +1,4 @@
 #labels Featured
-#首页
-
 ==测试版代码请至[http://code.google.com/p/zh-whmcs/source/checkout SVN]中下载。有意向加入的请申请加入项目维护人员==
 
 提交Bug和建议请至[http://code.google.com/p/zh-whmcs/issues/list Issues]；先看[http://code.google.com/p/zh-whmcs/issues/detail?id=1 Bug样本]和[http://code.google.com/p/zh-whmcs/issues/detail?id=2 建议样本]
