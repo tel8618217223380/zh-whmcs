@@ -1,0 +1,35 @@
+#labels
+#旧版首页（纯WHMCS翻译）
+
+==注意，如果想对代码提出修改，请至[http://code.google.com/p/zh-whmcs/source/checkout svn源代码]中下载最新版。有意向长期加入的请申请加入项目维护人员==
+
+这是一个开源项目，制作WHMCS的简体中文语言包，跟随WHMCS的升级不断修改。
+
+基本特点：
+
+1、力争100%汉化，不留遗漏与错误；
+
+2、跟随WHMCS官方更新，不再拖沓。
+
+==目前汉化进度：前台100%，后台80%中文化，60%校对完毕，请下载svn版==
+
+提交Bug和建议请至[http://code.google.com/p/zh-whmcs/issues/list Issues]；
+
+请先看[http://code.google.com/p/zh-whmcs/issues/detail?id=1 Bug样本]和[http://code.google.com/p/zh-whmcs/issues/detail?id=2 建议样本]
+
+版权说明：
+翻译成果以new BSD协议发布，可以商业使用；
+原文与WHMCS程序由WHMCS Ltd.版权所有
+
+主要人员：
+
+lsylsy2(lsylsy2@gmail.com)：项目创建者
+更多[http://code.google.com/p/zh-whmcs/people/list 看这里]，感谢！
+
+感谢：
+
+小牧：后台原版汉化提供者
+
+古风飘雨（主机迷站长）：参考了他的原版汉化
+
+==更多提供帮助的人：[http://code.google.com/p/zh-whmcs/wiki/Thanks 点此查看]==
