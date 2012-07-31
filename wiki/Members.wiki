@@ -32,3 +32,5 @@ service%usassh.com at gtempaccount.com，补充[http://code.google.com/p/zh-whmc
 nworou(nworou at gmail.com)，提交[http://code.google.com/p/zh-whmcs/issues/detail?id=5 补丁]和[http://code.google.com/p/zh-whmcs/issues/detail?id=6 补丁]
 
 Bendy(67052 at qq.com)，支付宝插件提供者
+
+gdsz51(web at 66ftp.com)，提供5.1.2版部分翻译
