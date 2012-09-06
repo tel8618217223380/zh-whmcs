@@ -262,7 +262,7 @@ $_ADMINLANG['clientsummary']['deleteselected'] = "删除选中产品";
 $_ADMINLANG['clientsummary']['deletesuccess'] = "选中的产品已成功删除";
 $_ADMINLANG['clientsummary']['massupdcomplete'] = "批量修改完成";
 $_ADMINLANG['clientsummary']['modifysuccess'] = "选中的产品已成功修改";
-$_ADMINLANG['clientsummary']['createaddfunds'] = "Create Add Funds Invoice";
+$_ADMINLANG['clientsummary']['createaddfunds'] = "新建充值账单";
 $_ADMINLANG['clientsummary']['createaddfundsdesc'] = "You can create invoices in this way to allow a client to deposit funds to their account, or to charge a specific amount from a clients credit card.";
 $_ADMINLANG['clientsummary']['createaddfundssuccess'] = "The add funds invoice was created successfully!";
 $_ADMINLANG['clientsummary']['settingtaxexempt'] = "Exempt from Tax";
@@ -429,7 +429,7 @@ $_ADMINLANG['domains']['idprotectionremoved'] = "ID Protection has been removed 
 $_ADMINLANG['domains']['nschangefail'] = "Nameserver 修改失败";
 $_ADMINLANG['domains']['nschangesuccess'] = "Nameserver 修改成功";
 $_ADMINLANG['domains']['nschangeinfo'] = "nameserver修改请求已被注册商接受";
-$_ADMINLANG['domains']['resetdefaultns'] = "Tick to reset to default nameservers";
+$_ADMINLANG['domains']['resetdefaultns'] = "勾选以重置为默认域名服务器";
 $_ADMINLANG['domains']['reglockfailed'] = "锁定失败";
 $_ADMINLANG['domains']['reglocksuccess'] = "锁定成功";
 $_ADMINLANG['domains']['reglockinfo'] = "锁定状态已成功更改";
@@ -476,7 +476,7 @@ $_ADMINLANG['domains']['autoreg'] = "自动注册";
 $_ADMINLANG['domains']['openpricing'] = "开放式价格";
 $_ADMINLANG['domains']['extensionalreadyexist'] = "该扩展 %s 已存在";
 
-$_ADMINLANG['domains']['duplicatetld'] = "Duplicate TLD";
+$_ADMINLANG['domains']['duplicatetld'] = "复制TLD";
 $_ADMINLANG['domains']['selecttldtoduplicate'] = "Select a TLD to duplicate";
 $_ADMINLANG['domains']['sourcenewtldempty'] = "Source TLD and New TLD should not be empty";
 
@@ -569,7 +569,7 @@ $_ADMINLANG['orders']['toplacenew'] = "添加新订单.";
 $_ADMINLANG['orders']['vieworder'] = "查看订单";
 $_ADMINLANG['orders']['ordertype'] = "订单类型";
 $_ADMINLANG['orders']['createorder'] = "创建订单";
-$_ADMINLANG['orders']['createpromo'] = "Create Custom Promo";
+$_ADMINLANG['orders']['createpromo'] = "新建自定义优惠码";
 $_ADMINLANG['orders']['createpromoinfo'] = "Promotional Discounts created \"on the fly\" here apply to all items in an order";
 
 # Billing Cycles
@@ -611,7 +611,6 @@ $_ADMINLANG['invoices']['markunpaid'] = "标记为未支付";
 $_ADMINLANG['invoices']['markunpaidconfirm'] = "Are you sure you want to set these invoices back to unpaid?";
 $_ADMINLANG['invoices']['markcancelled'] = "标记为被取消";
 $_ADMINLANG['invoices']['sendreminder'] = "发送邮件提醒";
-$_ADMINLANG['invoices']['sendreminder'] = "Send Reminder";
 $_ADMINLANG['invoices']['sendreminderconfirm'] = "Are you sure you want to send payment reminders for the selected invoices?";
 $_ADMINLANG['invoices']['summary'] = "摘要";
 $_ADMINLANG['invoices']['addpayment'] = "新增付款";
