@@ -1,4 +1,4 @@
-使用说明：
+语言包使用说明：
 前台Chinese.php请放入WHMCS的lang文件夹下；
 前台Chinese.php请放入WHMCS管理员目录文件夹的lang文件夹下；
 前台汉化：来自hostloc，主机迷等各种参考汉化；
@@ -6,10 +6,9 @@
 
 翻译、校对人员：
 lsylsy2(lsylsy2@gmail.com)：项目主要维护者
-小牧(http://t.qq.com/greejd)：后台原版汉化提供者
-主机迷(http://www.zhujimi.com)，提供一个版本的前台汉化，参考很多
+yupeng1990：参与维护
+ruizkor：参与维护
 
-感谢：
-walkman660(来自hostloc)，指出错误与提出措辞建议
-更多请查看
+感谢列表：
+请查看
 http://code.google.com/p/zh-whmcs/wiki/Thanks
